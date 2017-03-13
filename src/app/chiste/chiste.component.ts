@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chiste.component.css']
 })
 export class ChisteComponent implements OnInit {
-  setup: string,
-  punchline: string,
+  setup: string;
+  punchline: string;
   constructor() {
     this.setup = 'Cómo se dice calzoncillo en danés?',
     this.punchline = '¡Escondinabo!'
